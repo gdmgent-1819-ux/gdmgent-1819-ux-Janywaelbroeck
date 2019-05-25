@@ -3,7 +3,9 @@
   /**
    * Colour palette
    */
-  --c-primary: hsl(190, 100%, 40%);
+  --color-purple: hsla(275, 65%, 65%, 1);
+  --color-black: #000;
+  --color-white: #FFF;
 
   /**
    * Layout
@@ -13,7 +15,7 @@
   /**
    * Typography
    */
-  --t-primary: Arial, Helvetica, sans-serif;
+  --t-primary: Coming Soon, cursive;
   --t-secondary: Arial, Helvetica, sans-serif;
   --t-tertiary: monospace;
 

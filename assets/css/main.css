@@ -1,4 +1,5 @@
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+@import url('https://fonts.googleapis.com/css?family=Coming+Soon&display=swap');
 
 @import url('variables.css');
 @import url('base.css');
@@ -7,3 +8,173 @@
 @import url('components/buttons.css');
 @import url('components/forms.css');
 
+
+/*header
+===================================================
+*/
+
+header {
+    background-color: var(--color-purple);
+    display: flex;
+}
+
+.tfelogo {
+    width: 80px;
+    height: 80px;
+    border-right: solid white 2px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+.title {
+    font-family: var(--t-primary);
+    color: var(--color-white);
+    padding-left: 20px;
+}
+
+.mainnav {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.menu {
+    display: flex;
+    position: absolute;
+    right: 110px;
+    top: 30px;
+}
+
+.p1 {
+    padding: 5px 10px;
+    font-weight: 900;
+    font-size: 20px;
+    transition: 1ms;
+    color: var(--color-white);
+    transition: 1ms;
+}
+
+.p1:hover {
+    text-decoration: underline;
+    text-decoration-color: var(--color-white);
+}
+
+.search {
+    width: 65px;
+    height: 50px;
+    position: absolute;
+    right: 30px;
+    top: 20px;
+}
+
+/*main
+===================================================
+*/
+
+.mainph {
+    width: 100%;
+    height: 80vh;
+    object-fit: cover;
+}
+
+.main1 {
+    height: 100vh;
+}
+
+.mainH {
+    color: var(--color-purple);
+    font-family: var(--t-primary);
+}
+
+.mainH2 {
+    text-align: center;
+    font-family: var(--t--secondary);
+}
+
+.mainH3 {
+    text-align: center;
+    color: var(--color-purple);
+    font-family: var(--t-primary);
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+}
+
+.pic1 {
+    width: 350px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.pic2 {
+    height: 220px;
+    width: 320px;
+    border-radius: 20px;
+    display: block;
+    margin-bottom: 60px;
+}
+
+.pic3 {
+    height: 220px;
+    width: 320px;
+    border-radius: 20px;
+    display: block;
+}
+
+.photos2 {
+    padding-left: 20px;
+}
+
+.mainH4 {
+    font-family: var(--t-primary);
+    color: var(--color-purple);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.mainH5 {
+    font-family: var(--t-primary);
+    color: var(--color-black);
+    text-align: center;
+    padding-top: -5px;
+}
+
+.map {
+    width: 100%;
+    padding-top: 50px;
+}
+
+/*footer
+===================================================
+*/
+
+footer {
+    background-color: var(--color-purple);
+    padding-bottom: 40px;
+    display: flex;
+}
+
+.tfelogo2 {
+    width: 80px;
+    height: 80px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 15px;
+}
+
+.ftext {
+    padding-left: 50px;
+    padding-top: 40px;
+    ;
+    color: var(--color-white);
+    text-align: center;
+}
+
+.icons {
+    height: 80px;
+    width: 320px;
+    padding-left: 55%;
+    padding-top: 15px;
+}
